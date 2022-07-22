@@ -1,3 +1,5 @@
+
+/*------------------------------------------------Les Info Personel----------------------------------------*/
 #titel{
     font-size: x-large;
     text-align:center ; 
@@ -37,11 +39,12 @@
 }
 #div1{
     background-color:whitesmoke; 
+    margin-top: 30px;
     
       
 }
 #div2{
-   /* */
+    margin-top: 30px;
    
 }
 
@@ -50,8 +53,11 @@
 
 
 @media screen and (max-width: 900px) {
+    /*-----------------------------------------------NavBar-----------------------------------------------------*/
+    /*------------------------------------------------Les Info Personel----------------------------------------*/
     #titel{
-        font-size: 9px;
+        font-size: 8px;
+        margin-left: 7px;
         text-align:center ; 
         font-family: Georgia, 'Times New Roman', Times, serif;
          
@@ -61,16 +67,16 @@
         border-color: rgb(14, 36, 233);
         border-radius: 8px;
         box-shadow: 0 0 2px 1px rgba(27, 7, 201, 0.5);
-        height: 75px;
-        width: 75px;
+        height: 66px;
+        width: 66px;
     }
     #infp1{
-        font-size: 10px;
+        font-size: 8px;
         font-family: 'Times New Roman', Times, serif;
     }
     #infp2{
         /*font-family: cursive;*/
-        font-size: 10px;
+        font-size: 8px;
         font-family: 'Times New Roman', Times, serif; 
     }
     
