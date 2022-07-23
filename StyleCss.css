@@ -1,4 +1,22 @@
 
+/*------------------------------------------------Bas De Page---------------------------------------------*/
+#bas{
+    height: 20px;
+}
+/*------------------------------------------------Formation-----------------------------------------------*/
+#bock1{
+    font-size:x-large ;
+    font-family:'Times New Roman', Times, serif ;
+}
+#bock2{
+    font-family: 'Times New Roman', Times, serif;
+}
+#bock3{
+    font-family: cursive;
+}
+#dat{
+
+}
 /*------------------------------------------------Les Info Personel----------------------------------------*/
 #titel{
     font-size: x-large;
@@ -51,9 +69,24 @@
 
 
 
-
+/*DimensionIphone SE*/
 @media screen and (max-width: 900px) {
-    /*-----------------------------------------------NavBar-----------------------------------------------------*/
+    /*------------------------------------------------Formation-----------------------------------------------*/
+    #bock1{
+        font-size: 9px ;
+        font-family:'Times New Roman', Times, serif ;
+    }
+    #bock2{
+        font-size: 6px ;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    #bock3{
+        font-size: 6px;
+        font-family: cursive;
+    }
+    #dat{
+        font-size: 5px;
+    }
     /*------------------------------------------------Les Info Personel----------------------------------------*/
     #titel{
         font-size: 8px;
